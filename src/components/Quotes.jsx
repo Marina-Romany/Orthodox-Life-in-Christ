@@ -1,27 +1,40 @@
+import { quotes } from "../data/quotes";
+import { FaQuoteLeft } from "react-icons/fa";
+
 function Quotes() {
-    return (
-      <section className="py-20 px-6 bg-slate-50">
-        <div className="max-w-4xl mx-auto text-center">
-  
-          <h2 className="text-4xl font-bold mb-8">
-            Wisdom from the Fathers
-          </h2>
-  
-          <div className="bg-white rounded-3xl p-10 shadow-sm">
-  
-            <p className="text-2xl italic text-slate-700 leading-relaxed">
-              "Acquire the Spirit of Peace and thousands around you will be saved."
-            </p>
-  
-            <p className="mt-6 font-semibold">
-              — Saint Seraphim of Sarov
-            </p>
-  
-          </div>
-  
-        </div>
-      </section>
-    );
-  }
-  
-  export default Quotes;
+  const day = new Date().getDate();
+
+  const quote =
+    quotes[day % quotes.length];
+
+  return (
+    <section className="py-20 px-6">
+
+      <div className="max-w-4xl mx-auto bg-slate-900 text-white rounded-3xl p-10 text-center">
+
+        <FaQuoteLeft
+          size={28}
+          className="mx-auto text-amber-400 mb-6"
+        />
+
+        <p className="text-amber-400 uppercase tracking-[0.3em] text-sm mb-3">
+          Wisdom from the Fathers
+        </p>
+
+        <p className="text-2xl italic leading-relaxed mb-8">
+          "{quote.text}"
+        </p>
+
+        <div className="w-16 h-[2px] bg-amber-500 mx-auto mb-6"></div>
+
+        <p className="font-semibold text-lg">
+          — {quote.author}
+        </p>
+
+      </div>
+
+    </section>
+  );
+}
+
+export default Quotes;

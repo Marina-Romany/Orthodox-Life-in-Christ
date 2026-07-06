@@ -1,11 +1,7 @@
 import PrayersList from "../components/PrayersList";
 
 function PrayersPage() {
-  return (
-    <div className="pt-24">
-      <PrayersList />
-    </div>
-  );
+  return <PrayersList />;
 }
 
 export default PrayersPage;

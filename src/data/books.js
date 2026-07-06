@@ -3,13 +3,31 @@ import book2 from "../assets/images/books/book2.jpg";
 import book3 from "../assets/images/books/book3.jpg";
 import PopeShenouda from "../assets/images/books/Pope Shenouda.jpeg"
 import FatherMatta_El_Meskeen from "../assets/images/books/Father Matta El-Meskeen.jpeg"
+import Kallistos_Ware from "../assets/images/books/Kallistos Ware.jpeg"
+import Desert_Fathers from "../assets/images/books/Desert Fathers.jpeg"
+import Saint_Athanasius from "../assets/images/books/Saint Athanasius.jpeg"
+import Father_Tadros_Yacoub_Malaty from "../assets/images/books/Father Tadros Yacoub Malaty.jpeg"
+import Father_Daoud_Lamie from "../assets/images/books/Father Daoud Lamie.jpeg"
+import Saint_John_Climacus from "../assets/images/books/Saint John Climacus.jpeg"
+import Father_Bishoy_Kamel from "../assets/images/books/Father Bishoy Kamel.jpeg"
+import Metropolitan_Anthony_Bloom from "../assets/images/books/Metropolitan Anthony Bloom.jpeg"
+import Saint_Ignatius_Brianchaninov from "../assets/images/books/Saint Ignatius Brianchaninov.jpeg"
+import Saint_Theophan_the_Recluse from "../assets/images/books/Saint Theophan the Recluse.jpeg"
+import Saint_Ephrem_the_Syrian from "../assets/images/books/Saint Ephrem the Syrian.jpeg"
+import Saint_Augustine from "../assets/images/books/Saint Augustine.jpeg"
+
+ 
+ 
+ 
+
+ 
 
 export const books = [
   {
     id: 1,
     title: "The Orthodox Way",
     author: "Kallistos Ware",
-    image: book1,
+    image: Kallistos_Ware,
     description: `
     The Orthodox Way is widely regarded as one of the most influential and accessible introductions to Orthodox Christianity ever written. In this remarkable work, Metropolitan Kallistos Ware invites readers into the heart of the Orthodox faith, presenting Christianity not merely as a system of beliefs, moral teachings, or religious obligations, but as a living encounter with the Triune God.
     
@@ -31,7 +49,7 @@ export const books = [
     id: 2,
     title: "The Sayings of the Desert Fathers",
     author: "Desert Fathers",
-    image: book2,
+    image: Desert_Fathers,
     description: `
 The Sayings of the Desert Fathers is one of the most treasured collections of spiritual wisdom in the history of Christianity and remains a foundational work for understanding the origins of Orthodox monasticism. This remarkable collection preserves the teachings, conversations, experiences, and spiritual counsel of the holy men and women who withdrew into the deserts of Egypt, Palestine, and Syria during the fourth and fifth centuries in order to devote themselves entirely to God. These ascetics, known collectively as the Desert Fathers and Desert Mothers, sought a life of prayer, repentance, fasting, humility, and unceasing communion with Christ. Their influence shaped Christian spirituality for centuries and continues to inspire believers throughout the world today.
 
@@ -59,7 +77,7 @@ Through its pages, generations of Christians have discovered encouragement, wisd
     id: 3,
     title: "On the Incarnation",
     author: "Saint Athanasius",
-    image: book3,
+    image: Saint_Athanasius,
     description: `
     On the Incarnation is widely regarded as one of the greatest theological works ever written in the history of Christianity and remains one of the most influential books in Orthodox theology. Written by Saint Athanasius the Apostolic, the twentieth Pope of Alexandria and one of the most important defenders of the Christian faith, this masterpiece provides a profound explanation of the mystery of the Incarnation and God's plan for the salvation of humanity. Composed during a time when the Church faced significant theological challenges, the book continues to serve as a foundational text for understanding who Jesus Christ is, why He came into the world, and how His life, death, and resurrection transformed human history forever.
     
@@ -222,7 +240,7 @@ Through its pages, generations of Christians have discovered encouragement, wisd
     id: 9,
     title: "The Book of Revelation",
     author: "Father Tadros Yacoub Malaty",
-    image: book2,
+    image: Father_Tadros_Yacoub_Malaty,
 description: `
 The Book of Revelation, as interpreted by Father Tadros Yacoub Malaty, is one of the most comprehensive and spiritually enriching Orthodox commentaries on the final book of the Holy Bible. Drawing extensively from Holy Scripture, the writings of the early Church Fathers, and the rich tradition of Orthodox theology, Father Tadros guides readers through the profound mysteries and symbolic visions contained within the Revelation of Saint John the Theologian. Rather than approaching Revelation as merely a book of future predictions or historical speculation, the author presents it as a living message of hope, victory, and encouragement for every generation of believers.
 
@@ -249,7 +267,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 10,
     title: "The Gospel According to Saint John",
     author: "Father Tadros Yacoub Malaty",
-    image: book3,
+    image: Father_Tadros_Yacoub_Malaty,
     description: `
     The Gospel According to Saint John, as interpreted by Father Tadros Yacoub Malaty, is one of the most profound and spiritually enriching Orthodox commentaries on the Holy Scriptures. Drawing from the writings of the Church Fathers, the teachings of the Orthodox Church, and a deep understanding of biblical theology, Father Tadros presents the Gospel of Saint John as a living encounter with Jesus Christ, the eternal Word of God who became flesh for the salvation of humanity. This commentary invites readers to move beyond a surface reading of the text and enter into the spiritual depth, theological richness, and transformative power of one of the most beloved books of the New Testament.
     
@@ -276,7 +294,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 11,
     title: "The Life of Saint Anthony",
     author: "Saint Athanasius",
-    image: book1,
+    image: Saint_Athanasius,
     description: `
     The Life of Saint Anthony, written by Saint Athanasius the Apostolic, is one of the most influential spiritual biographies in the entire history of Christianity and is widely regarded as the foundational text of Christian monasticism. More than a simple historical account, this remarkable work presents the life, struggles, victories, teachings, and spiritual wisdom of Saint Anthony the Great, the father of monasticism and one of the most beloved saints in the Orthodox Church. Through this biography, Saint Athanasius not only records the life of a holy man but also offers a powerful testimony to the transforming power of God's grace in the life of a believer completely devoted to Christ.
     
@@ -305,7 +323,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 12,
     title: "Paradise of the Fathers",
     author: "Desert Fathers",
-    image: book2,
+    image: Desert_Fathers,
     description: `
     The Life of Saint Anthony, written by Saint Athanasius the Apostolic, is one of the most influential spiritual biographies in the entire history of Christianity and is widely regarded as the foundational text of Christian monasticism. More than a simple historical account, this remarkable work presents the life, struggles, victories, teachings, and spiritual wisdom of Saint Anthony the Great, the father of monasticism and one of the most beloved saints in the Orthodox Church. Through this biography, Saint Athanasius not only records the life of a holy man but also offers a powerful testimony to the transforming power of God's grace in the life of a believer completely devoted to Christ.
     
@@ -334,7 +352,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 13,
     title: "The Ladder of Divine Ascent",
     author: "Saint John Climacus",
-    image: book3,
+    image: Saint_John_Climacus,
     description: `
     The Ladder of Divine Ascent is one of the most revered and influential spiritual masterpieces in the entire history of Orthodox Christianity. Written by Saint John Climacus, a seventh-century monk, ascetic, and abbot of Saint Catherine's Monastery on Mount Sinai, this extraordinary work has guided generations of Christians in their pursuit of holiness and union with God. The title of the book is derived from the image of a ladder extending from earth to heaven, symbolizing the gradual ascent of the human soul toward God through repentance, spiritual struggle, virtue, and divine grace. For centuries, the book has been regarded as essential reading within Orthodox monasticism and remains a treasured source of wisdom for both monastics and lay believers seeking spiritual growth.
     
@@ -363,7 +381,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 14,
     title: "The Orthodox Prayer Life",
     author: "Father Daoud Lamie",
-    image: book1,
+    image: Father_Daoud_Lamie,
     description: `
     The Orthodox Prayer Life by Father Daoud Lamie is a deeply inspiring and practical guide to one of the most essential aspects of the Christian journey: prayer. Written with pastoral wisdom, spiritual depth, and a profound understanding of Orthodox spirituality, this book seeks to help believers move beyond viewing prayer as a routine religious obligation and discover it as a living relationship with God. Father Daoud presents prayer as the heartbeat of the spiritual life, the means through which believers encounter Christ, receive divine grace, and grow in holiness. Through clear teaching and practical guidance, the book invites readers to cultivate a deeper and more consistent life of prayer rooted in the traditions of the Orthodox Church.
     
@@ -392,7 +410,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 15,
     title: "Spiritual Warfare",
     author: "Father Daoud Lamie",
-    image: book2,
+    image: Father_Daoud_Lamie,
     description: `
     Spiritual Warfare by Father Daoud Lamie is a profound and practical Orthodox guide to understanding the spiritual battles that every Christian faces throughout life. Rooted in Holy Scripture, the teachings of the Church Fathers, and the rich spiritual tradition of the Coptic Orthodox Church, this book provides believers with the wisdom, encouragement, and spiritual tools necessary to overcome temptation, resist the attacks of the enemy, and grow stronger in their relationship with God. Rather than presenting spiritual warfare as a mysterious or frightening subject, Father Daoud explains it as a normal and essential aspect of the Christian journey toward holiness and union with Christ.
     
@@ -421,7 +439,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 16,
     title: "The Return to God",
     author: "Father Bishoy Kamel",
-    image: book3,
+    image: Father_Bishoy_Kamel,
     description: `
     The Return to God is one of the most beloved spiritual works associated with Father Bishoy Kamel, a deeply respected priest of the Coptic Orthodox Church whose life, sermons, and pastoral ministry continue to inspire Christians throughout the world. This book serves as a heartfelt invitation for every believer to renew his or her relationship with God through repentance, humility, prayer, and a sincere desire for spiritual transformation. Written with warmth, simplicity, and profound spiritual insight, the book addresses the universal human experience of drifting away from God and offers practical guidance for returning to the loving embrace of the Heavenly Father.
     
@@ -450,7 +468,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 17,
     title: "Homilies on Repentance",
     author: "Saint Ephrem the Syrian",
-    image: book1,
+    image: Saint_Ephrem_the_Syrian,
     description: `
     Homilies on Repentance by Saint Ephrem the Syrian is one of the most moving and spiritually profound collections of writings in the history of Orthodox Christianity. Saint Ephrem, often called the Harp of the Holy Spirit, was one of the greatest theologians, poets, hymnographers, and spiritual teachers of the early Church. His writings possess a unique ability to touch both the mind and the heart, combining deep theological insight with extraordinary spiritual beauty. In these homilies, Saint Ephrem reflects upon repentance not merely as a religious practice but as the path to healing, renewal, reconciliation with God, and the restoration of the human soul. Through powerful imagery, heartfelt exhortations, and profound spiritual wisdom, he invites readers into a life of humility, self-examination, and trust in the limitless mercy of God.
     
@@ -508,7 +526,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 19,
     title: "The Confessions",
     author: "Saint Augustine",
-    image: book3,
+    image: Saint_Augustine,
     description: `
     The Confessions is one of the most famous and influential spiritual autobiographies in the history of Christianity. Written by Saint Augustine of Hippo, this remarkable work is both a personal testimony and a profound theological reflection on the human soul's journey toward God. Through a deeply honest and moving narrative, Saint Augustine recounts his life from childhood through his years of intellectual searching, moral struggles, and eventual conversion to Christianity. More than a historical account, the book serves as a spiritual exploration of sin, grace, repentance, divine providence, and the restless longing of the human heart for its Creator. For centuries, The Confessions has inspired Christians throughout the world with its sincerity, wisdom, and powerful testimony to God's transforming love.
     
@@ -656,7 +674,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 24,
     title: "The Story of Monasticism",
     author: "Father Tadros Yacoub Malaty",
-    image: book2,
+    image: Father_Tadros_Yacoub_Malaty,
     description: `
     The Story of Monasticism by Father Tadros Yacoub Malaty is a remarkable and deeply enriching exploration of one of the most influential movements in the history of Christianity. Rooted in the rich heritage of the Orthodox Church, this book traces the origins, development, spiritual significance, and lasting impact of Christian monasticism, with special emphasis on its birth and flourishing in the deserts of Egypt. Through historical research, biblical reflection, patristic wisdom, and spiritual insight, Father Tadros presents a vivid portrait of the men and women who left behind worldly ambitions in order to devote themselves entirely to God. The result is a fascinating journey into the heart of Orthodox spirituality and a powerful testimony to the transforming power of divine grace.
     
@@ -689,7 +707,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 25,
     title: "The Hidden Life with Christ",
     author: "Father Bishoy Kamel",
-    image: book3,
+    image: Father_Bishoy_Kamel,
     description: `
     The Hidden Life with Christ by Father Bishoy Kamel is one of the most beloved and spiritually enriching works in modern Orthodox Christian literature. Written by one of the most respected priests and spiritual fathers of the Coptic Orthodox Church, this book invites believers to discover the beauty, depth, and power of a life rooted in continual communion with Jesus Christ. Father Bishoy presents the Christian life not as a collection of external practices or religious obligations but as a hidden relationship of love with the Lord, cultivated in the depths of the heart and expressed through humility, prayer, purity, obedience, self-denial, and faithful service. Through practical guidance and profound spiritual insight, the book helps readers understand how an ordinary life can become a dwelling place for God's presence.
     
@@ -720,7 +738,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 26,
     title: "The Divine Liturgy",
     author: "Father Tadros Yacoub Malaty",
-    image: book1,
+    image: Father_Tadros_Yacoub_Malaty,
     description: `
     The Divine Liturgy by Father Tadros Yacoub Malaty is a profound and illuminating exploration of the heart of Orthodox worship and one of the most important aspects of Christian life within the Orthodox Church. Drawing upon Holy Scripture, the teachings of the Church Fathers, liturgical tradition, and centuries of spiritual experience, Father Tadros guides readers into a deeper understanding of the Divine Liturgy and its central role in the life of believers. More than a historical or theological study, this book serves as a spiritual guide that helps Christians participate consciously, reverently, and joyfully in the Eucharistic life of the Church. Through detailed explanations and rich spiritual reflections, the author reveals the beauty, depth, and heavenly reality hidden within every part of the Divine Liturgy.
     
@@ -753,7 +771,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 27,
     title: "The Way of the Cross",
     author: "Father Daoud Lamie",
-    image: book2,
+    image: Father_Daoud_Lamie,
     description: `
     The Way of the Cross by Father Daoud Lamie is a deeply inspiring and spiritually enriching Orthodox work that explores one of the most central themes of the Christian life: carrying the cross with Christ. Drawing from Holy Scripture, the teachings of the Church Fathers, the lives of the saints, and practical experiences from everyday life, Father Daoud presents the cross not merely as a symbol of suffering but as the pathway to resurrection, spiritual maturity, victory, and eternal communion with God. Through warm pastoral guidance and profound spiritual wisdom, the author helps believers understand how every trial, hardship, disappointment, and sacrifice can become an opportunity for growth in faith and deeper fellowship with Christ.
     
@@ -784,7 +802,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 28,
     title: "The Orthodox Family",
     author: "Father Daoud Lamie",
-    image: book3,
+    image: Father_Daoud_Lamie,
     description: `
     The Orthodox Family by Father Daoud Lamie is a deeply practical and spiritually enriching guide that addresses one of the most important institutions established by God: the Christian family. Drawing upon Holy Scripture, Orthodox teachings, the wisdom of the Church Fathers, and years of pastoral experience, Father Daoud presents a comprehensive vision of family life centered on Christ. The book demonstrates that the family is not merely a social unit but a sacred community called to reflect the love, unity, holiness, and faithfulness of God. Through clear teaching, practical advice, and spiritual insight, readers are encouraged to build homes where Christ reigns as the true foundation and where every family member grows in faith, love, and spiritual maturity.
     
@@ -819,7 +837,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 29,
     title: "The Spiritual Struggle",
     author: "Saint Theophan the Recluse",
-    image: book1,
+    image: Saint_Theophan_the_Recluse,
     description: `
     The Spiritual Struggle by Saint Theophan the Recluse is one of the most respected and influential works of Orthodox spiritual literature, offering a profound exploration of the Christian life as a continual journey of inner transformation and warfare against sin. Saint Theophan, one of the greatest spiritual teachers of the Orthodox Church, draws upon Holy Scripture, the teachings of the Church Fathers, and his own deep pastoral experience to guide believers through the challenges of spiritual growth. The book presents the Christian life not as a passive acceptance of religious truths but as an active struggle requiring vigilance, prayer, repentance, discipline, and complete dependence upon the grace of God. Through practical instruction and profound spiritual wisdom, Saint Theophan reveals how believers can overcome temptation, cultivate virtue, and grow into deeper communion with Christ.
     
@@ -887,7 +905,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 31,
     title: "The Arena",
     author: "Saint Ignatius Brianchaninov",
-    image: book3,
+    image: Saint_Ignatius_Brianchaninov,
     description: `
     The Arena by Saint Ignatius Brianchaninov is one of the most profound and respected masterpieces of Orthodox spiritual literature, offering a comprehensive guide to the inner life of the Christian and the lifelong struggle for holiness. Written by one of the greatest spiritual fathers of the Russian Orthodox Church, this remarkable work presents the Christian life as an arena of spiritual combat in which believers are called to fight against sin, passions, temptations, pride, self-love, and every obstacle that separates them from God. Drawing upon Holy Scripture, the writings of the Desert Fathers, the wisdom of the saints, and his own extensive spiritual experience, Saint Ignatius provides practical instruction for those who desire genuine repentance, spiritual growth, and union with Christ.
     
@@ -922,7 +940,7 @@ Far more than a study of biblical prophecy, The Book of Revelation becomes a gui
     id: 32,
     title: "Beginning to Pray",
     author: "Metropolitan Anthony Bloom",
-    image: book1,
+    image: Metropolitan_Anthony_Bloom,
     description: `
     Beginning to Pray by Metropolitan Anthony Bloom is one of the most beloved and accessible introductions to the spiritual life of prayer within the Orthodox Christian tradition. Written with remarkable warmth, wisdom, and honesty, this classic work addresses both beginners and experienced believers who desire a deeper and more authentic relationship with God. Rather than presenting prayer as a complicated religious technique or a collection of formulas to be mastered, Metropolitan Anthony reveals prayer as a living encounter between the human person and the loving God who continually seeks communion with His children. Through profound spiritual insight and practical guidance, the author helps readers overcome common obstacles to prayer and discover the joy, freedom, and transformation that come from standing in the presence of God.
     

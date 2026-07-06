@@ -16,7 +16,7 @@ const saint = saints[dayIndex];
           <img
             src={saint.image}
             alt={saint.name}
-            className="rounded-3xl h-[400px] w-full object-cover"
+            className="rounded-3xl h-[400px] w-full object-contain"
           />
 
           <div>

@@ -10,8 +10,8 @@ function SaintsList() {
   );
 
   return (
-<section className="min-h-screen bg-gradient-to-b from-white to-amber-50 pt-4 pb-20 px-6">
-      <div className="max-w-7xl mx-auto">
+<section className="min-h-screen bg-slate-50 pt-28 pb-20 px-6">
+        <div className="max-w-7xl mx-auto">
 
         {/* Header */}
         <div className="text-center mb-14">

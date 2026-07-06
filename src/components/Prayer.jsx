@@ -8,12 +8,13 @@ function Prayer() {
     prayers[day % prayers.length];
 
   return (
-    <section className="py-20 px-6" id="prayer">
+
+    <section className="pt-28 pb-20 px-6 bg-slate-50 min-h-screen" id="prayer">
 
       <div className="max-w-4xl mx-auto bg-slate-900 text-white rounded-3xl p-10 text-center">
 
         <p className="text-amber-400 uppercase tracking-[0.3em] text-sm mb-3">
-          Prayer Of The Day
+          Prayer
         </p>
 
         <h2 className="text-4xl font-bold mb-6">
